@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "entry.js",
+  "config": { "token": "&0" },
   "scripts": {
-    "test": "mocha tests/**/*.test.js ",
+    "test": "mocha tests/**/*.test.js",
     "test-watch": "nodemon --exec 'npm test'"
   },
   "engines": {
